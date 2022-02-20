@@ -5,6 +5,23 @@
 .error {
     background-color: #f76c5e;
 }
+
+.nav{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #292929;
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    text-decoration: none;
+    color: white;
+}
+
 #board, tr {
     border: 1px solid #000000;
     border-collapse: collapse;
@@ -61,4 +78,13 @@ td {
     border: 1px solid;
     text-align: center;
     padding: 0;
+}
+td.scores{
+    border: 0px !important;
+}
+th.title{
+    border:0px !important;
+}
+#highscores{
+    border-top: 0px !important;
 }
